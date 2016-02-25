@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Dialogs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.101819992, y: .936091423, z: -10.0663872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb131e4d232532743ac398ae9a9a4851, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imagePlaceHolder: {fileID: 2800000, guid: 913becf99e7a0d54d9772342722b382f, type: 3}
+  dialogPlaceHolder: {fileID: 2800000, guid: a502599883cb1492c915b48e845fd7a3, type: 3}
+  textPlaceHolder: {fileID: 0}
+  iconPlaceHolder: {fileID: 2800000, guid: 56d8a14d3a936436fb7a78132ef6f03b, type: 3}
+  skipImage: {fileID: 2800000, guid: 0f92fd63bedcdf540adefe1b73ade1d9, type: 3}
+  images:
+  - {fileID: 2800000, guid: 643a2dfad655d4a4e868ab2f0518f8f7, type: 3}
+  - {fileID: 2800000, guid: 5923990a2b8f8064ea93dcfae09a1973, type: 3}
+  - {fileID: 2800000, guid: f66b7fb3831d321499616c8b9a0c15ce, type: 3}
+  - {fileID: 2800000, guid: 06cf0df2e75f9ec46a63e14da9b24f6f, type: 3}
+  - {fileID: 2800000, guid: 3865ac5b9817d4190a83a061e7d7bde2, type: 3}
+  - {fileID: 2800000, guid: 2b8836c106d0c46528f5c40aa63a8e0f, type: 3}
+  - {fileID: 2800000, guid: 1bc97fdae133746fa8fbeec4c686200a, type: 3}
+  - {fileID: 2800000, guid: e0bae0bbce4b94fb584526680664107a, type: 3}
+  - {fileID: 2800000, guid: 728676c9f9b824c1b85765acdaac591d, type: 3}
+  dialog:
+    serializedVersion: 2
+    x: 70
+    y: 8
+    width: 500
+    height: 128
+  image:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 128
+    height: 0
+  text:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  icon:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 20
+    height: 20
+  skipButton:
+    serializedVersion: 2
+    x: 283
+    y: 125
+    width: 74
+    height: 32
+  textStyle:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: 60c744450d9bd5c45b5e15f7fbca0eb2, type: 3}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 1
+    m_WordWrap: 1
+    m_RichText: 1
+    m_TextClipping: 1
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  imageGapSize: 5
+  pictureLeft: 1
+  textSpeed: .0399999991
+  slowerSpeed: 3
+  currentChapter: 0
+  currentScene: 0
+  dialogFile: {fileID: 4900000, guid: f4dc33be58d6c4945ba179a2abf6f3b3, type: 3}
+  dialogFiles:
+  - {fileID: 4900000, guid: f4dc33be58d6c4945ba179a2abf6f3b3, type: 3}
+  - {fileID: 4900000, guid: bd8fdc38119cac64f8a5b7c1f049c5cc, type: 3}
+  - {fileID: 4900000, guid: a848e0b68414a9c42a526f838d828a59, type: 3}
+  skipEnabled: 0
+  useFeedback: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
