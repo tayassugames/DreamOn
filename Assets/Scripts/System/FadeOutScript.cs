@@ -40,13 +40,13 @@ public class FadeOutScript : MonoBehaviour {
 			
 			alpha = Mathf.Lerp(_initialValue, _finalValue, Mathf.Clamp01(_timer/totalTime));
 		    
-			Color tempColor = GUI.color;
-			tempColor.a = alpha;
-			GUI.color = tempColor;
+			//Color tempColor = GUI.color;
+			//tempColor.a = alpha;
+			//GUI.color = tempColor;
 		    
-		    GUI.depth = drawDepth;
+		    //GUI.depth = drawDepth;
 		    
-		    GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), fadeTexture);
+		    //GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), fadeTexture);
 			
 			if((direction > 0 && alpha == 1) || (direction < 0 && alpha == 0)) {
 				if(direction < 0)
