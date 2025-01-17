@@ -12994,6 +12994,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100002, guid: e50b3b95e3d5842babbbe46dd692e693, type: 3}
+      propertyPath: m_Name
+      value: platformerSystem
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: e50b3b95e3d5842babbbe46dd692e693, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.6309
@@ -13022,38 +13026,22 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400010, guid: e50b3b95e3d5842babbbe46dd692e693, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.193963
+    - target: {fileID: 400002, guid: e50b3b95e3d5842babbbe46dd692e693, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400010, guid: e50b3b95e3d5842babbbe46dd692e693, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -24.999992
+    - target: {fileID: 400002, guid: e50b3b95e3d5842babbbe46dd692e693, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2000002, guid: e50b3b95e3d5842babbbe46dd692e693, type: 3}
-      propertyPath: m_CullingMask.m_Bits
-      value: 4294836223
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e50b3b95e3d5842babbbe46dd692e693, type: 3}
-      propertyPath: SwipeSprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: e50b3b95e3d5842babbbe46dd692e693, type: 3}
-      propertyPath: SwipeSpriteVertical
-      value: 
+    - target: {fileID: 400002, guid: e50b3b95e3d5842babbbe46dd692e693, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: e50b3b95e3d5842babbbe46dd692e693, type: 3}
       propertyPath: spawnPoints.Array.data[0]
       value: 
       objectReference: {fileID: 1793813739}
-    - target: {fileID: 11400006, guid: e50b3b95e3d5842babbbe46dd692e693, type: 3}
-      propertyPath: zDistance
-      value: -25
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400016, guid: e50b3b95e3d5842babbbe46dd692e693, type: 3}
-      propertyPath: AndyBackPack
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
